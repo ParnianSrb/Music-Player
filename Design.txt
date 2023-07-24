@@ -1,0 +1,23 @@
+QSlider::groove:horizontal {
+border: 2px solid black;
+background: white;
+height: 12px;
+border-radius: 5px;
+}
+
+
+QSlider::sub-page:horizontal:disabled {
+background: #bbb;
+border-color: black;
+}
+
+QSlider::add-page:horizontal:disabled {
+background: #eee;
+border-color: #999;
+}
+
+QSlider::handle:horizontal:disabled {
+background: #eee;
+border: 1px solid #aaa;
+border-radius: 4px;
+}
