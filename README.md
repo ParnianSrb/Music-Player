@@ -19,3 +19,6 @@ Expectations and Problem:
 2. I wanted the duration label starts decreasing while the music starts, and goes on playing, however I could only show the total duration of the song constantly.
 3. The next_song() and previous_song() functions are almost the same, thus the code ought to be much cleaner, than what I wrote here.
 4. The fname() variable, which is created by QFileDialog.getOpenFileName() method, is the address of a music file in a specific local directory -C:\\Users\IT CITY\PycharmProjects\pythonProject\Practice\P3-Music_Player- that I wrote in this method. This directory is local, and users/developers ought to change it by their own music files' address.
+
+Installation Instructions:
+To use python I have tried coding with PyCharm which has been easy and straightforward. Here is the link to download and install: https://www.jetbrains.com/pycharm/download/?section=windows / https://www.jetbrains.com/help/pycharm/installation-guide.html#snap
