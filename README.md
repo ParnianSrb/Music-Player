@@ -6,7 +6,7 @@ A Python based project, which plays music using the "file" button on the applica
 The GUI is designed by QtDesigner and Libraries are: PyQt5, vlc, time
 
 
-![music player](https://github.com/ParnianSrb/Music-Player/assets/82469872/95af2c24-bb89-4e1d-9d9e-a70f69bccee4)
+---------- ![music player](https://github.com/ParnianSrb/Music-Player/assets/82469872/95af2c24-bb89-4e1d-9d9e-a70f69bccee4) ----------
 
 
 Expectations and Problem:
