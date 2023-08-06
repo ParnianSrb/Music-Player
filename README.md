@@ -5,10 +5,10 @@ A Python based project, which plays music using the "file" button on the applica
 
 The GUI is designed by QtDesigner and Libraries are: PyQt5, vlc, time
 
+![music player](https://github.com/ParnianSrb/Music-Player/assets/82469872/95af2c24-bb89-4e1d-9d9e-a70f69bccee4) 
 
----------- ![music player](https://github.com/ParnianSrb/Music-Player/assets/82469872/95af2c24-bb89-4e1d-9d9e-a70f69bccee4) ----------
-
-
+Playlist: While one chooses songs and play them, a playlist is created, and the songs that are being played, get added to this list. So, there is the ability to go through these songs via the Next and Previous buttons on the application.
+ 
 Expectations and Problem:
 1. The slider widget, that is expected to change the Volume, does not work. I have tried different ways and some code is commented in the relevant function → slide_it()
 2. I wanted the duration label starts decreasing while the music starts, and goes on playing, however I could only show the total duration of the song constantly.
