@@ -12,7 +12,7 @@ Tips:
 1. vlc.EventType.MediaParsedChanged: Checks the code, in order to make sure if it is parsed, and ready to do other things on the my_media() object. To be percise, parsing happens when the music starts to play; and the time.sleep() method that has come after the play() method in some functions, gives the my_media() object enough time to parse the music file.
 2. Creating Playlist: While one chooses songs and play them, a playlist is created, and the songs that are being played, get added to this list. So, it gives the ability to go through these songs, via the Next and Previous buttons on the application.
 3. To find a song name, I used the fname variable, containing the full address, which includes the song name in the full path of the address. Going through each charachter of the path.
-4. I had difficulty, importing the vlc library i.e. I used the direct way to import vlc → os.add_dll_directory(r'C:\Program Files\VideoLAN\VLC')
+4. I had difficulty, importing the vlc library i.e. I used the absolute way to import vlc → os.add_dll_directory(r'C:\Program Files\VideoLAN\VLC')
 
 Expectations and Problem:
 1. The slider widget, that is expected to change the Volume, does not work. I have tried different ways and some code is commented in the relevant function → slide_it()
